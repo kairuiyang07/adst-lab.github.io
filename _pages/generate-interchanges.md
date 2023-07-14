@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 Introduction
-======
+---
 The complexity of highways mainly lies in highway interchanges due to the diverse connection topology and ramp geometry, which significantly affect the decision-making and motion control of A Vs.
 
 
@@ -24,7 +24,7 @@ To address this issue, we propose a systematic method to generate diverse interc
 
 
 FLYOVER
-======
+---
 A. Modeling of Interchange Topology
 
 We apply labeled digraph to model interchange typologies.
@@ -52,11 +52,8 @@ According to the above definitions, we can classify interchanges into different 
 C. Coverage-Guided Interchange Sampling
 
 * In this paper, we mainly focus on the planning and control modules of an A V , so we identify the following features:
-
 * the number of lanes for a one-way road, which affects the local trajectory computation of an A V
-
 * minimum radius of a ramp, which determines the speed limit of the ramp
-
 * maximum longitudinal slope of a ramp, which has a significant impact on the throttle control of an A V
 
 
@@ -64,7 +61,7 @@ Meanwhile, to preserve the geometrical diversity while minimizing duplication, w
 
   
 Examples of Generated Interchanges
-======
+---
 
 
 In our example, we search for the interchanges in Hangzhou using the keyword “highway interchange” on the GaoDe map, resulting in 39 interchanges in 2D space.
@@ -90,7 +87,7 @@ or more details, please refer to our following papers:
 ![test_img](../images/gendongtu03.GIF)
 
 
-Yuan Zhou, Gengjie Lin, Yun Tang,  "FLYOVER: A Model-Driven Method to Generate Diverse Highway Interchanges for Autonomous Vehicle Testing," which is Accepted by ICRA  2023：[URL](https://doi.org/10.48550/arXiv.2301.12738)
+Yuan Zhou, Gengjie Lin, Yun Tang,  "FLYOVER: A Model-Driven Method to Generate Diverse Highway Interchanges for Autonomous Vehicle Testing," which is Accepted by ICRA  2023, [see details](https://doi.org/10.48550/arXiv.2301.12738).
 
 [Here you can download our dataset](https://ntutangyun.github.io/highway-interchange-dataset-website/) 
 

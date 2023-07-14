@@ -10,7 +10,7 @@ author_profile: true
 {% include base_path %}
 
 Introduction
-======
+---
 
 We've generated test scenarios based on the geometry and topology information extracted from the HD maps, either without or with dynamic obstacles. 
 
@@ -23,17 +23,17 @@ For example, if there are no junctions in the map, we will not be able to genera
 To address this issue and complement the previously proposed methods, we propose the following feature-based HD map generation method to automatically generate HD maps ready for simulation testing based on manually required features or automatically extracted features from existing maps. 
 
 Map Modeling
-======
+---
 
 We focus on the city-driving scenarios and as mentioned previously, there are two main elements: roads and junctions. 
 
-* Road Modeling
+<b>*Road Modeling*</b>
 
 Road consists of parallel lanes, which can be represented by their central curve and land width. 
 
 We use the cubic Bézier curve to model lane central curves and boundaries. 
 
-* Junction Modeling
+<b>*Junction Modeling*</b>
 
 Junctions are the places where roads connects with each other.  We model the junctions by means of road sockets as shown in the diagram below.
 
@@ -45,7 +45,7 @@ As mentioned earlier, each route contians two roads and one junction.
 ![test_img](../images/HDtupian01.png)
 
 Grid-layout guided HD map construction
-======
+---
 
 After we have the models for roads and junctions, the next step is to find out where to construct the junctions and how to connect them, such that the junctions are connected as much as they can and there are no overlaps of the roads. 
 

@@ -7,8 +7,28 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+.i-list[data-v-662c1668] {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px
+}
+
+.l-img[data-v-662c1668] {
+	width: 30%;
+	margin-right: 20px
+}
+
+.img-bottom[data-v-662c1668] {
+	background: #fff;
+	width: 100%;
+	overflow: hidden
+}
+</style>
+
 Introduction
-======
+---
 The first step to testing scenarios generation is to construct the road networks where all the traffic participants (e.g. EGO vehicle, NPC vehicles, pedestrians etc.) move.
 
 In city-driving scenarios, the two most common elements of the road networks are the roads and junctions (including roundabouts). 
@@ -24,22 +44,18 @@ For example, for the San Francisco map provided by LG SVL, we noticed that over 
 To solve this, a way to classify routes need to be proposed to quantitatively group test cases and identify representives test cases from each group. 
 
 Methodology
-======
+---
 As mentioned earlier, each route contians two roads and one junction. 
 
 We define the following features to classify the junctions:
 
 * has_traffic_light
-
 * has_stop_sign
-
 * has_incoming_crosswalk
-
 * has_outgoing_crosswalk
-
 * topology feature
 
-The topolgy feature is denoted by the co nectivity of the connected roads and thus represents the direction of the traffic flow through the junction.  
+The topolgy feature is denoted by the co nectivity of the connected roads and thus represents the direction of the traffic flow through the junction.
 
 The following diagram visualizes some of the topology features extracted from the San Francisco map. It can be seen that the topology feature not only records the traffic flow information but also implies the shape (i.e. geometry) of the junction. 
 
@@ -48,10 +64,9 @@ The following diagram visualizes some of the topology features extracted from th
 We define the following features to model the driving behavior on roads:
 
 * number_of_lane_changes_before_junction
-
 * number_of_lane_changes_after_junction
 
-The extracted road features are shown below
+The extracted road features are shown below:
 
 ![test_img](../images/tupian02.png)
 
@@ -63,49 +78,29 @@ As a result, duplicated test cases can be elimitated by selecting only one route
 
 Below are some of the discovered issues of the open-source Apollo stack:
 
-
-
 <div class="i-list" data-v-662c1668="">
-  <div class="l-img" data-v-662c1668="">
-    <ul><li>Failed to change lane</li></ul>
-    <div class="img-bottom" data-v-662c1668="">
-      <img src="../images/TOPOdongtu01.GIF" alt="" data-v-662c1668="">
-    </div>
-  </div>
-  <div class="l-img" data-v-662c1668="">
-    <ul><li>Stuck at stop sign junction</li></ul>
-    <div class="img-bottom" data-v-662c1668="">
-      <img src="../images/TOPOdongtu02.GIF" alt="" data-v-662c1668="">
-    </div>
-  </div>
-  <div class="l-img" data-v-662c1668="">
-    <ul><li>Produced inefficient routing</li></ul>
-    <div class="img-bottom" data-v-662c1668="">
-      <img src="../images/TOPOdongtu03.GIF" alt="" data-v-662c1668="">
-    </div>
-  </div>
+	<div class="l-img" data-v-662c1668="">
+    		<div class="img-bottom" data-v-662c1668="">
+      			<img src="../images/TOPOdongtu01.GIF" alt="" data-v-662c1668="">
+			<p><b>Failed to change lane</b></p>
+    		</div>
+  	</div>
+  	<div class="l-img" data-v-662c1668="">
+    		<div class="img-bottom" data-v-662c1668="">
+      			<img src="../images/TOPOdongtu02.GIF" alt="" data-v-662c1668="">
+			<p><b>Stuck at stop sign junction</b></p>
+    		</div>
+  	</div>
+  	<div class="l-img" data-v-662c1668="">
+    		<div class="img-bottom" data-v-662c1668="">
+      			<img src="../images/TOPOdongtu03.GIF" alt="" data-v-662c1668="">
+			<p><b>Produced inefficient routing</b></p>
+    		</div>
+  	</div>
 </div>
 
 Readers are referred to the following paper for more details.
 
-Y. Tang et al., "Route Coverage Testing for Autonomous Vehicles via Map Modeling," 2021 IEEE International Conference on Robotics and Automation (ICRA), 2021, pp. 11450-11456, doi: 10.1109/ICRA48506.2021.9560890.[URL](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9560890&isnumber=9560666)
+Y. Tang et al., "Route Coverage Testing for Autonomous Vehicles via Map Modeling," 2021 IEEE International Conference on Robotics and Automation (ICRA), 2021, pp. 11450-11456, doi: 10.1109/ICRA48506.2021.9560890, [see details](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9560890&isnumber=9560666).
 
-<style>
-.i-list[data-v-662c1668] {
-width: 100%;
-display: flex;
-justify-content: space-between;
-margin-top: 20px
-}
 
-.l-img[data-v-662c1668] {
-width: 30%;
-margin-right: 20px
-}
-
-.img-bottom[data-v-662c1668] {
-background: #fff;
-width: 100%;
-overflow: hidden
-}
-</style>
