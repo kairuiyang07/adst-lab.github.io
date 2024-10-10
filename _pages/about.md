@@ -147,8 +147,7 @@ Highlighted Works
      			Mingfei Cheng, Yuan Zhou, Xiaofei Xie, Kairui Yang.Evaluating Decision Optimality of Autonomous Driving via Metamorphic Testing
     		</div>
     		<div class="t-btn" data-v-662c1668="">
-      			<a href="https://arxiv.org/pdf/2402.18393v1"><button data-v-662c1668="">Paper</button></a>
-      			 
+      			<a href="https://arxiv.org/pdf/2402.18393v1"><button data-v-662c1668="">Paper</button></a>	 
     		</div>
   	</div>
 </div>
