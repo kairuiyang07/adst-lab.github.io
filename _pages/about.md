@@ -133,6 +133,25 @@ Learn more from <a href="https://www.bilibili.com/video/BV1EL411S7Kg/?spm_id_fro
 
 Highlighted Works
 ---
+
+<div class="i-list" data-v-662c1668="">
+	<div class="l-left" data-v-662c1668="">
+		<div class="left-img" data-v-662c1668="">
+      			<img src="../images/hometupianvpnet-nips2024.png" alt="" data-v-662c1668="">
+    		</div>
+  	</div>
+  	<div class="l-right" data-v-662c1668="">
+    		<div class="r-top" data-v-662c1668="">
+      			VPNet
+    		</div>
+    		<div class="r-cont" data-v-662c1668="">
+     			Voxel Proposal Network via Multi-Frame Knowledge Distillation for Semantic Scene Completion,Lubo Wang, Kairui Yang ,Di Lin, NeurIPS 2024
+    		</div>
+    		<div class="t-btn" data-v-662c1668="">
+      			<a href="https://nips.cc/virtual/2024/poster/96957"><button data-v-662c1668="">Paper</button></a>	 
+    		</div>
+  	</div>
+</div>
 <div class="i-list" data-v-662c1668="">
 	<div class="l-left" data-v-662c1668="">
 		<div class="left-img" data-v-662c1668="">
@@ -144,7 +163,7 @@ Highlighted Works
       			Metamorphic Testing
     		</div>
     		<div class="r-cont" data-v-662c1668="">
-     			Mingfei Cheng, Yuan Zhou, Xiaofei Xie, Kairui Yang.Evaluating Decision Optimality of Autonomous Driving via Metamorphic Testing
+     			Mingfei Cheng, Yuan Zhou, Xiaofei Xie, Kairui Yang.Evaluating Decision Optimality of Autonomous Driving via Metamorphic Testing, Preprint, 2024
     		</div>
     		<div class="t-btn" data-v-662c1668="">
       			<a href="https://arxiv.org/pdf/2402.18393v1"><button data-v-662c1668="">Paper</button></a>	 
