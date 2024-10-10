@@ -136,6 +136,25 @@ Highlighted Works
 <div class="i-list" data-v-662c1668="">
 	<div class="l-left" data-v-662c1668="">
 		<div class="left-img" data-v-662c1668="">
+      			<img src="../images/hometupianMetamorphic.png" alt="" data-v-662c1668="">
+    		</div>
+  	</div>
+  	<div class="l-right" data-v-662c1668="">
+    		<div class="r-top" data-v-662c1668="">
+      			Metamorphic Testing
+    		</div>
+    		<div class="r-cont" data-v-662c1668="">
+     			Mingfei Cheng, Yuan Zhou, Xiaofei Xie, Kairui Yang.Evaluating Decision Optimality of Autonomous Driving via Metamorphic Testing
+    		</div>
+    		<div class="t-btn" data-v-662c1668="">
+      			<a href="https://arxiv.org/pdf/2402.18393v1"><button data-v-662c1668="">Paper</button></a>
+      			 
+    		</div>
+  	</div>
+</div>
+<div class="i-list" data-v-662c1668="">
+	<div class="l-left" data-v-662c1668="">
+		<div class="left-img" data-v-662c1668="">
       			<img src="../images/homedongtu01.GIF" alt="" data-v-662c1668="">
     		</div>
   	</div>
